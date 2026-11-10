@@ -1,0 +1,10 @@
+.DS_Store
+.env
+.env.*
+*.log
+
+/backups/
+/exports/
+/uploads/
+/database/backups/
+/database/godwilling_db.sql

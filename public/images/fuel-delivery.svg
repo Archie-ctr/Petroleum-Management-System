@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Fuel delivery and logistics illustration</title>
+  <desc id="desc">A fuel tanker traveling along a road between a depot and a service station.</desc>
+  <defs>
+    <linearGradient id="tank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9f0df"/>
+    </linearGradient>
+    <linearGradient id="hills" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#53b976"/>
+      <stop offset="1" stop-color="#19854a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="32" fill="#e7f7ec"/>
+  <circle cx="654" cy="99" r="45" fill="#ffdc50"/>
+  <path d="M0 292c116-66 207-50 312-6 146 62 280-45 488-34v248H0Z" fill="#a9dfb8"/>
+  <path d="M0 353c154-59 292-23 430 13 141 37 248-10 370-38v172H0Z" fill="url(#hills)"/>
+  <path d="M0 423h800v77H0Z" fill="#354a3c"/>
+  <path d="M0 456h800" stroke="#f8dc53" stroke-width="8" stroke-dasharray="48 32"/>
+  <g transform="translate(142 232)">
+    <rect x="0" y="73" width="112" height="84" rx="11" fill="#e5aa18"/>
+    <path d="M111 99h70l44 46v12H111Z" fill="#d7960e"/>
+    <path d="M130 108h42l28 30h-70Z" fill="#b9e8c6"/>
+    <path d="M15 40c0-28 24-51 52-51h207c28 0 51 23 51 51v97H15Z" fill="url(#tank)" stroke="#217746" stroke-width="7"/>
+    <path d="M33 53h275" stroke="#31a25a" stroke-width="11"/>
+    <path d="M63 45V6m205 39V6" stroke="#378a50" stroke-width="8"/>
+    <rect x="98" y="69" width="133" height="37" rx="18" fill="#26824a"/>
+    <path d="M114 87h100" stroke="#f8d64c" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="75" cy="160" r="24" fill="#24372d"/>
+    <circle cx="75" cy="160" r="10" fill="#d6e5d8"/>
+    <circle cx="191" cy="160" r="24" fill="#24372d"/>
+    <circle cx="191" cy="160" r="10" fill="#d6e5d8"/>
+    <circle cx="289" cy="160" r="24" fill="#24372d"/>
+    <circle cx="289" cy="160" r="10" fill="#d6e5d8"/>
+  </g>
+  <g transform="translate(572 234)">
+    <path d="M0 53h123l-14 24H13Z" fill="#20824a"/>
+    <path d="M13 77h96v12H13Zm12 13h9v80h-9Zm58 0h9v80h-9Z" fill="#fff"/>
+    <rect x="38" y="105" width="35" height="42" fill="#c7e9d0"/>
+    <path d="M42 117h27" stroke="#37a15e" stroke-width="4"/>
+  </g>
+</svg>

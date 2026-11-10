@@ -1,0 +1,11 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase "/Petrolem Managemennt/"
+
+RewriteCond %{THE_REQUEST} \s/+[^\s?]+\.php(?:[?\s]) [NC]
+RewriteRule ^(.*)\.php$ $1 [R=308,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
